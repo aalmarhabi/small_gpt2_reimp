@@ -1,10 +1,10 @@
 # Introduction
-This is a side project to reimplement picoGPT that is a smaller version of onpenai GPT model 2. The goal was to reimplement and understand the structure of GPT model. 
+This is a side project to reimplement picoGPT that is a smaller version of Onpenai GPT model 2. The goal was to reimplement and understand the structure of GPT model. 
 
 # Rsources
 - Openai/gpt-2
 - karpathy/nanoGPT
-- jaymody/picoGPT (the most used resource - first check out jaymody repo and blog)
+- **[jaymody/picoGPT](https://jaykmody.com/blog/gpt-from-scratch/?utm_source=tldrnewsletter#encoder)** (the most used resource - first check out jaymody repo and blog)
 - arxiv.org - Attention Is All You Need
 
 # Requirement
@@ -26,3 +26,5 @@ tensorflow-macos==2.11.0
 ```
 python gpt2.py "Test any text" 
 ```
+# local Run
+![](https://github.com/aalmarhabi/small_gpt2_reimp/blob/main/scr1.png)
